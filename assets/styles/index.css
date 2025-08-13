@@ -53,13 +53,15 @@ hr.bold {
   padding: 12px 0;
 }
 
-.headline {
+.headline,
+.analysis {
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
 }
 
-.headline figure img {
+.headline figure img,
+.analysis figure img {
   width: 100%;
 }
 
@@ -76,11 +78,13 @@ figcaption {
   font-size: 0.6rem;
 }
 
-.headline article h3 {
+.headline article h3,
+.analysis article h3 {
   font-size: 1.8rem;
 }
 
-.headline article p {
+.headline article p,
+.analysis article p {
   font-size: 1rem;
   color: var(--color-content-tertiary);
 }
@@ -113,7 +117,8 @@ figcaption {
   color: var(--color-content-quaternary);
 }
 
-.content h5 {
+.content h5
+.analysis h5 {
   font-weight: 400;
 }
 
@@ -121,4 +126,8 @@ figcaption {
   display: flex;
   align-items: center;
   gap: 4px;
+}
+
+.analysis {
+  margin-top: 20px;
 }
