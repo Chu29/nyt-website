@@ -54,7 +54,8 @@ hr.bold {
 }
 
 .headline,
-.analysis {
+.analysis,
+.middle-east-crisis {
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
@@ -79,12 +80,14 @@ figcaption {
 }
 
 .headline article h3,
-.analysis article h3 {
+.analysis article h3,
+.middle-east-crisis article h3 {
   font-size: 1.8rem;
 }
 
 .headline article p,
-.analysis article p {
+.analysis article p,
+.middle-east-crisis article p {
   font-size: 1rem;
   color: var(--color-content-tertiary);
 }
@@ -117,7 +120,7 @@ figcaption {
   color: var(--color-content-quaternary);
 }
 
-.content h5
+.content h5,
 .analysis h5 {
   font-weight: 400;
 }
@@ -130,4 +133,34 @@ figcaption {
 
 .analysis {
   margin-top: 20px;
+}
+
+.crisis-nav {
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+
+.crisis-nav ul {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 20px;
+}
+
+.crisis-nav ul::-webkit-scrollbar {
+  display: none;
+}
+
+.crisis-nav ul li {
+  list-style-type: none;
+  flex-shrink: 0;
+}
+
+.crisis-nav ul a {
+  text-decoration: none;
+  color: #000;
+}
+
+.crisis-right figure {
+  display: none;
 }
