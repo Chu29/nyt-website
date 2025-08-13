@@ -5,7 +5,7 @@
 }
 
 :root {
-  --color-content-tertiary: #5A5A5A;
+  --color-content-tertiary: #5a5a5a;
   --color-content-quaternary: #727272;
 }
 
@@ -29,7 +29,7 @@ hr {
 }
 
 .nyt-logo-mobile {
-  width:188px;
+  width: 188px;
   height: 25px;
 }
 
