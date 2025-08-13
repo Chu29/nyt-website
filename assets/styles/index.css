@@ -56,7 +56,8 @@ hr.bold {
 .headline,
 .analysis,
 .middle-east-crisis,
-.about-syria {
+.about-syria,
+.model {
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
@@ -64,7 +65,8 @@ hr.bold {
 
 .headline figure img,
 .analysis figure img,
-.about-syria figure img {
+.about-syria figure img,
+.model figure img {
   width: 100%;
 }
 
@@ -88,14 +90,16 @@ figcaption {
 .headline article h3,
 .analysis article h3,
 .middle-east-crisis article h3,
-.about-syria article h3 {
+.about-syria article h3,
+.model article h3 {
   font-size: 1.8rem;
 }
 
 .headline article p,
 .analysis article p,
 .middle-east-crisis article p,
-.about-syria article p {
+.about-syria article p,
+.model article p {
   font-size: 1rem;
   color: var(--color-content-tertiary);
 }
@@ -148,14 +152,16 @@ figcaption {
   padding-top: 10px;
 }
 
-.crisis-nav ul {
+.crisis-nav ul,
+.in-case-you-missed-it {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
   gap: 20px;
 }
 
-.crisis-nav ul::-webkit-scrollbar {
+.crisis-nav ul::-webkit-scrollbar,
+.in-case-you-missed-it::-webkit-scrollbar {
   display: none;
 }
 
@@ -180,4 +186,8 @@ figcaption {
 .got-a-tip p {
   padding: 20px 0;
   font-size: 1.2em;
+}
+
+.in-case-you-missed-it p {
+  font-weight: 700;
 }
