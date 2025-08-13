@@ -55,14 +55,16 @@ hr.bold {
 
 .headline,
 .analysis,
-.middle-east-crisis {
+.middle-east-crisis,
+.about-syria {
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
 }
 
 .headline figure img,
-.analysis figure img {
+.analysis figure img,
+.about-syria figure img {
   width: 100%;
 }
 
@@ -70,6 +72,10 @@ article {
   display: flex;
   flex-direction: column;
   gap: 15px;
+}
+
+figcaption {
+  text-align: right;
 }
 
 .caption,
@@ -81,13 +87,15 @@ figcaption {
 
 .headline article h3,
 .analysis article h3,
-.middle-east-crisis article h3 {
+.middle-east-crisis article h3,
+.about-syria article h3 {
   font-size: 1.8rem;
 }
 
 .headline article p,
 .analysis article p,
-.middle-east-crisis article p {
+.middle-east-crisis article p,
+.about-syria article p {
   font-size: 1rem;
   color: var(--color-content-tertiary);
 }
@@ -163,4 +171,13 @@ figcaption {
 
 .crisis-right figure {
   display: none;
+}
+
+.got-a-tip {
+  margin-bottom: 15px;
+}
+
+.got-a-tip p {
+  padding: 20px 0;
+  font-size: 1.2em;
 }
