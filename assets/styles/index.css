@@ -64,7 +64,8 @@ hr.bold {
 .bubble-art,
 .north-american-cities,
 .hurricane,
-.more-news {
+.more-news,
+.the-athletic {
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
@@ -79,14 +80,27 @@ hr.bold {
 .bubble-art figure img,
 .north-american-cities figure img,
 .hurricane figure img,
-.more-news figure img {
+.more-news figure img,
+.the-athletic figure img,
+.culture-and-lifestyle figure img {
   width: 100%;
 }
 
 article {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+article.game {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+article.game img {
+  width: 80px;
+  height: 80px;
 }
 
 figcaption {
@@ -110,11 +124,17 @@ figcaption {
 .bubble-art article h3,
 .north-american-cities article h3,
 .hurricane article h3,
-.more-news article h3 {
+.more-news article h3,
+.the-athletic article h3 {
   font-size: 1.8rem;
 }
 
-.in-case-you-missed-it p {
+article.game h3 {
+  font-size: 1.5em;
+}
+
+.in-case-you-missed-it p,
+.well p {
   font-weight: 700;
 }
 
@@ -134,7 +154,8 @@ figcaption {
 .bubble-art article p,
 .north-american-cities article p,
 .hurricane article p,
-.more-news article p {
+.more-news article p,
+.the-athletic article p {
   font-size: 1rem;
   color: var(--color-content-tertiary);
 }
@@ -190,7 +211,8 @@ figcaption {
 
 .crisis-nav ul,
 .ai-nav ul,
-.in-case-you-missed-it {
+.in-case-you-missed-it,
+.well {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
@@ -199,7 +221,8 @@ figcaption {
 
 .crisis-nav ul::-webkit-scrollbar,
 .ai-nav ul::-webkit-scrollbar,
-.in-case-you-missed-it::-webkit-scrollbar {
+.in-case-you-missed-it::-webkit-scrollbar,
+.well::-webkit-scrollbar {
   display: none;
 }
 
