@@ -61,7 +61,8 @@ hr.bold {
 .artificial-intelligence,
 .administration,
 .immigrants,
-.bubble-art {
+.bubble-art,
+.north-american-cities {
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
@@ -73,7 +74,8 @@ hr.bold {
 .model figure img,
 .artificial-intelligence figure img,
 .administration figure img,
-.bubble-art figure img {
+.bubble-art figure img,
+.north-american-cities figure img {
   width: 100%;
 }
 
@@ -101,7 +103,8 @@ figcaption {
 .model article h3,
 .artificial-intelligence article h3,
 .administration article h3,
-.bubble-art article h3 {
+.bubble-art article h3,
+.north-american-cities article h3 {
   font-size: 1.8rem;
 }
 
@@ -122,7 +125,8 @@ figcaption {
 .model article p,
 .artificial-intelligence article p,
 .administration article p,
-.bubble-art article p {
+.bubble-art article p,
+.north-american-cities article p {
   font-size: 1rem;
   color: var(--color-content-tertiary);
 }
