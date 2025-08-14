@@ -308,6 +308,13 @@ div.game-card {
   margin-bottom: 20px;
 }
 
+.bottom-nav div a {
+  text-decoration: none;
+  color: var(--color-content-quaternary);
+  font-size: 0.7em;
+  padding-right: 30px;
+}
+
 .bottom-nav ul li a {
   font-size: small;
   text-decoration: none;
@@ -316,11 +323,4 @@ div.game-card {
 
 .bottom-nav div {
   text-align: center;
-}
-
-.bottom-nav div a {
-  text-decoration: none;
-  color: var(--color-content-quaternary);
-  font-size: 0.7em;
-  padding-right: 30px;
 }
