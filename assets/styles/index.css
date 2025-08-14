@@ -66,7 +66,8 @@ hr.bold {
 .hurricane,
 .more-news,
 .the-athletic,
-.culture-and-lifestyle {
+.culture-and-lifestyle,
+.podcasts {
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
@@ -191,6 +192,7 @@ article.game h3 {
 
 .the-headlines {
   display: flex;
+  /* flex-wrap: wrap; */
   gap: 12px;
   padding: 15px 0 30px;
   margin-bottom: 30px;
