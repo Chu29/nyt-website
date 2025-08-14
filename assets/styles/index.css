@@ -192,7 +192,6 @@ article.game h3 {
 
 .the-headlines {
   display: flex;
-  /* flex-wrap: wrap; */
   gap: 12px;
   padding: 15px 0 30px;
   margin-bottom: 30px;
