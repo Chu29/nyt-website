@@ -57,7 +57,11 @@ hr.bold {
 .analysis,
 .middle-east-crisis,
 .about-syria,
-.model {
+.model,
+.artificial-intelligence,
+.administration,
+.immigrants,
+.bubble-art {
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
@@ -66,7 +70,10 @@ hr.bold {
 .headline figure img,
 .analysis figure img,
 .about-syria figure img,
-.model figure img {
+.model figure img,
+.artificial-intelligence figure img,
+.administration figure img,
+.bubble-art figure img {
   width: 100%;
 }
 
@@ -91,7 +98,10 @@ figcaption {
 .analysis article h3,
 .middle-east-crisis article h3,
 .about-syria article h3,
-.model article h3 {
+.model article h3,
+.artificial-intelligence article h3,
+.administration article h3,
+.bubble-art article h3 {
   font-size: 1.8rem;
 }
 
@@ -99,7 +109,10 @@ figcaption {
 .analysis article p,
 .middle-east-crisis article p,
 .about-syria article p,
-.model article p {
+.model article p,
+.artificial-intelligence article p,
+.administration article p,
+.bubble-art article p {
   font-size: 1rem;
   color: var(--color-content-tertiary);
 }
@@ -147,12 +160,14 @@ figcaption {
   margin-top: 20px;
 }
 
-.crisis-nav {
+.crisis-nav,
+.ai-nav {
   margin-bottom: 20px;
   padding-top: 10px;
 }
 
 .crisis-nav ul,
+.ai-nav ul,
 .in-case-you-missed-it {
   display: flex;
   flex-wrap: nowrap;
@@ -161,16 +176,19 @@ figcaption {
 }
 
 .crisis-nav ul::-webkit-scrollbar,
+.ai-nav ul::-webkit-scrollbar,
 .in-case-you-missed-it::-webkit-scrollbar {
   display: none;
 }
 
-.crisis-nav ul li {
+.crisis-nav ul li,
+.ai-nav ul li {
   list-style-type: none;
   flex-shrink: 0;
 }
 
-.crisis-nav ul a {
+.crisis-nav ul a,
+.ai-nav ul a {
   text-decoration: none;
   color: #000;
 }
@@ -186,6 +204,15 @@ figcaption {
 .got-a-tip p {
   padding: 20px 0;
   font-size: 1.2em;
+  text-align: center;
+}
+
+.model-right {
+  margin-bottom: 20px;
+}
+
+.in-case-you-missed-it {
+  margin: 20px 0;
 }
 
 .in-case-you-missed-it p {
