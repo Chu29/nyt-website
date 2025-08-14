@@ -299,3 +299,28 @@ div.game-card {
   align-items: center;
   justify-content: space-between;
 }
+
+.bottom-nav ul li {
+  border-top: 1px solid var(--color-content-quaternary);
+  display: block;
+  text-align: center;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.bottom-nav ul li a {
+  font-size: small;
+  text-decoration: none;
+  color: var(--color-content-quaternary);
+}
+
+.bottom-nav div {
+  text-align: center;
+}
+
+.bottom-nav div a {
+  text-decoration: none;
+  color: var(--color-content-quaternary);
+  font-size: 0.7em;
+  padding-right: 30px;
+}
