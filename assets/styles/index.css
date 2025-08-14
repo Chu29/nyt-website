@@ -62,7 +62,9 @@ hr.bold {
 .administration,
 .immigrants,
 .bubble-art,
-.north-american-cities {
+.north-american-cities,
+.hurricane,
+.more-news {
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
@@ -75,7 +77,9 @@ hr.bold {
 .artificial-intelligence figure img,
 .administration figure img,
 .bubble-art figure img,
-.north-american-cities figure img {
+.north-american-cities figure img,
+.hurricane figure img,
+.more-news figure img {
   width: 100%;
 }
 
@@ -104,7 +108,9 @@ figcaption {
 .artificial-intelligence article h3,
 .administration article h3,
 .bubble-art article h3,
-.north-american-cities article h3 {
+.north-american-cities article h3,
+.hurricane article h3,
+.more-news article h3 {
   font-size: 1.8rem;
 }
 
@@ -126,7 +132,9 @@ figcaption {
 .artificial-intelligence article p,
 .administration article p,
 .bubble-art article p,
-.north-american-cities article p {
+.north-american-cities article p,
+.hurricane article p,
+.more-news article p {
   font-size: 1rem;
   color: var(--color-content-tertiary);
 }
