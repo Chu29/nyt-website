@@ -105,6 +105,16 @@ figcaption {
   font-size: 1.8rem;
 }
 
+.in-case-you-missed-it p {
+  font-weight: 700;
+}
+
+.got-a-tip p {
+  padding: 20px 0;
+  font-size: 1.2em;
+  text-align: center;
+}
+
 .headline article p,
 .analysis article p,
 .middle-east-crisis article p,
@@ -201,20 +211,10 @@ figcaption {
   margin-bottom: 15px;
 }
 
-.got-a-tip p {
-  padding: 20px 0;
-  font-size: 1.2em;
-  text-align: center;
-}
-
 .model-right {
   margin-bottom: 20px;
 }
 
 .in-case-you-missed-it {
   margin: 20px 0;
-}
-
-.in-case-you-missed-it p {
-  font-weight: 700;
 }
