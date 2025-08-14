@@ -186,6 +186,11 @@ article.game h3 {
   color: var(--color-content-tertiary);
 }
 
+.game-card article p {
+  color: var(--color-content-tertiary);
+  font-size: 1.2em;
+}
+
 .dealbook-mbl {
   display: flex;
   flex-direction: column;
@@ -278,4 +283,19 @@ article.game h3 {
 
 .in-case-you-missed-it {
   margin: 20px 0;
+}
+
+div.games {
+  margin-bottom: 8em;
+}
+
+div.games img {
+  width: 100px;
+  height: 100px;
+}
+
+div.game-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
