@@ -65,7 +65,8 @@ hr.bold {
 .north-american-cities,
 .hurricane,
 .more-news,
-.the-athletic {
+.the-athletic,
+.culture-and-lifestyle {
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
@@ -125,8 +126,24 @@ figcaption {
 .north-american-cities article h3,
 .hurricane article h3,
 .more-news article h3,
-.the-athletic article h3 {
+.the-athletic article h3,
+.culture-and-lifestyle article h3 {
   font-size: 1.8rem;
+}
+
+div.lifestyle-right h3 {
+  font-size: 1.17em;
+}
+
+div.lifestyle-right .sub-lifestyle-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+div.lifestyle-right img {
+  max-height: fit-content;
 }
 
 article.game h3 {
@@ -155,7 +172,8 @@ article.game h3 {
 .north-american-cities article p,
 .hurricane article p,
 .more-news article p,
-.the-athletic article p {
+.the-athletic article p,
+.culture-and-lifestyle article p {
   font-size: 1rem;
   color: var(--color-content-tertiary);
 }
