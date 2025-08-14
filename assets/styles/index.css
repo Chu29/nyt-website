@@ -22,7 +22,13 @@ hr.bold {
 }
 
 .desktop-nav,
-.container {
+.container,
+.news,
+.opinion,
+.arts,
+.living,
+aside,
+footer {
   display: none;
 }
 
@@ -143,7 +149,8 @@ div.lifestyle-right .sub-lifestyle-right {
   gap: 30px;
 }
 
-div.lifestyle-right img {
+div.lifestyle-right img,
+div.pod img {
   max-height: fit-content;
 }
 
